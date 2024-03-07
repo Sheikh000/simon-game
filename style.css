@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1.5rem;
+}
+.red{
+    background-color:  #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color:#63aac0 ;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@media only screen and (max-width: 600px) {
+   .btn{
+     height: 150px;
+     width: 150px;
+   }
+    
+}
+

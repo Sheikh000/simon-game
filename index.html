@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start the Game</h2>
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red .btn-press" type="button" id="red"></div>
+            <div class="btn yellow .btn-press" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green .btn-press" type="button" id="green"></div>
+            <div class="btn purple .btn-press" type="button" id="purple"></div>
+        </div>
+    </div>
+    <audio src="./audios/game-start.mp3" id="game-start"></audio>
+    <audio src="./audios/gameover.mp3" id="game-over"></audio>
+    <audio src="./audios/userclick.mp3" id="user-click"></audio>
+    <audio src="./audios/gameflash.mp3" id="btn-flash"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
